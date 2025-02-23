@@ -30,7 +30,7 @@ const Header = () => {
       </div>
 
       <nav className="flex justify-between mt-8">
-        <span className="bg-sixth-color text-seventh-color font-bold rounded-full h-[50px] w-[50px] flex items-center justify-center transform rotate-[29.34deg]">
+        <span className="bg-sixth-color text-lg text-seventh-color font-bold rounded-full h-[62px] w-[63.68px] flex items-center justify-center transform rotate-[29.34deg]">
           E
         </span>
         <nav className="flex items-center text-tertiary-color font-[450] text-lg gap-10">

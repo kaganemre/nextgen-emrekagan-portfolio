@@ -1,13 +1,13 @@
 const AboutMe = () => {
   return (
-    <section className="flex gap-10 mt-10 items-center justify-center">
+    <section className="flex gap-10 mt-16 items-center justify-center">
       <div className="flex flex-col gap-10 hero-left">
         <div className="flex justify-start items-center gap-2">
           <hr
-            className="separator-line primary-color w-[5rem] border-t-1"
+            className="separator-line text-eighth-color w-[5rem] border-t-1"
             style={{ borderColor: "#3730A3", margin: "0" }}
           />
-          <span className="primary-color">Emre Kağan Erde</span>
+          <span className="text-eighth-color font-medium">Emre Kağan Erde</span>
         </div>
         <p className="text-6xl">Creative thinker Minimalism lover</p>
         <p className="text-wrap">

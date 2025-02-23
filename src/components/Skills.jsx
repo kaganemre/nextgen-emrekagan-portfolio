@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <section className="mt-20">
-      <p className="text-5xl font-semibold">Skills</p>
+      <p className="text-5xl text-ninth-color font-semibold">Skills</p>
       <div className="flex justify-between skills-list mt-10">
         <div className="skill">
           <p className="text-3xl text-eighth-color font-medium mb-6">

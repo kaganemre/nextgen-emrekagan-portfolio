@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-      <hr className="my-12" />
+      <hr className="my-12 text-eleventh-color" />
       <section className="flex flex-col gap-5 projects-list">
         <p className="text-5xl mb-3">Projects</p>
         <div className="flex gap-28">

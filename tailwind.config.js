@@ -12,7 +12,9 @@ export default {
         'sixth-color': '#EEEBFF',
         'seventh-color': '#7B61FF',
         'eighth-color': '#4338CA',
-        'ninth-color': '#1F2937'
+        'ninth-color': '#1F2937',
+        'tenth-color': '#000000',
+        'eleventh-color': '#BAB2E7'
       }
     },
   },

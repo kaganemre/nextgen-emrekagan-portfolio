@@ -14,7 +14,8 @@ export default {
         'eighth-color': '#4338CA',
         'ninth-color': '#1F2937',
         'tenth-color': '#000000',
-        'eleventh-color': '#BAB2E7'
+        'eleventh-color': '#BAB2E7',
+        'twelfth-color': '#AF0C48'
       }
     },
   },

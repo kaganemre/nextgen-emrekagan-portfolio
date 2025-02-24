@@ -1,35 +1,23 @@
-import React from "react";
+import { useContext } from "react";
+import { PortfolioContext } from "../contexts/PortfolioContext";
 
 const Skills = () => {
+  const { skills } = useContext(PortfolioContext);
+
   return (
-    <section className="mt-20">
-      <p className="text-5xl text-ninth-color font-semibold">Skills</p>
+    <section className="mt-40">
+      <p className="text-5xl text-ninth-color font-semibold">{skills.title}</p>
       <div className="flex justify-between skills-list mt-10">
-        <div className="skill">
-          <p className="text-3xl text-eighth-color font-medium mb-6">
-            JavaScript
-          </p>
-          <p className="text-xs text-tertiary-color break-words w-60">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div className="skill">
-          <p className="text-3xl text-eighth-color font-medium mb-6">React</p>
-          <p className="text-xs text-tertiary-color break-words w-60">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div className="skill">
-          <p className="text-3xl text-eighth-color font-medium mb-6">
-            ASP.NET Core
-          </p>
-          <p className="text-xs text-tertiary-color break-words w-64">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
+        {skills.list.map((skill, index) => (
+          <div key={index} className="skill">
+            <p className="text-3xl text-eighth-color font-medium mb-6">
+              {skill.name}
+            </p>
+            <p className="text-xs text-tertiary-color break-words w-60">
+              {skill.description}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );

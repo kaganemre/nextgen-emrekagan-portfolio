@@ -1,0 +1,136 @@
+{
+  "menu": {
+        "tr": {
+          "skills": "Yetenekler",
+          "projects": "Projeler",
+          "contact": "İletişim"
+        },
+        "en": {
+          "skills": "Skills",
+          "projects": "Projects",
+          "contact": "Contact"
+        }
+      },
+      "aboutMe": {
+        "tr": {
+          "header": "Çözüm odaklı, detaylara önem veren geliştirici",
+          "text": "Merhaba, ben Emre Kağan. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ve backend ürünleri geliştiren ve harika kullanıcı deneyimleri sunan bir geliştirici arıyorsanız, benimle iletişime geçebilirsiniz."
+        },
+        "en": {
+            "header": "Solution-oriented detail-focused developer",
+            "text": "Hello, I am Emre Kağan. I am a full-stack developer. If you are looking for a developer who creates robust and scalable frontend and backend products and delivers great user experiences, you can get in touch with me."
+        }
+      },
+      "skills": {
+          "tr": {
+            "title": "Yetenekler",
+            "list": [
+              {
+                "name": "JavaScript",
+                "description": "JavaScript, web uygulamaları geliştirmek için kullanılan güçlü ve esnek bir programlama dilidir. Dinamik ve etkileşimli web sayfaları oluşturmak için temel araçtır."
+              },
+              {
+                "name": "React",
+                "description": "React, kullanıcı arayüzleri oluşturmak için kullanılan, bileşen tabanlı bir JavaScript kütüphanesidir. Verimli ve yeniden kullanılabilir bileşenler ile dinamik web uygulamaları geliştirmeyi sağlar."
+              },
+              {
+                "name": "ASP.NET Core",
+                "description": "ASP.NET Core, web uygulamaları ve API'ler geliştirmek için kullanılan açık kaynaklı ve çapraz platform bir framework'tür. Yüksek performanslı ve ölçeklenebilir çözümler sunar."
+              }
+            ]
+          },
+        "en": {
+          "title": "Skills",
+          "list": [
+            {
+              "name": "JavaScript",
+              "description": "JavaScript is a powerful and flexible programming language used to build web applications. It is the core tool for creating dynamic and interactive web pages."
+            },
+            {
+              "name": "React",
+              "description": "React is a JavaScript library for building user interfaces. It allows the creation of dynamic web applications with efficient and reusable components."
+            },
+            {
+              "name": "ASP.NET Core",
+              "description": "ASP.NET Core is an open-source, cross-platform framework used to build web applications and APIs. It provides high-performance and scalable solutions."
+            }
+          ]
+        }
+      },
+      "profile": {
+        "tr": {
+          "title": "Profil",
+          "cityLabel": "İkamet Şehri",
+          "educationLabel": "Eğitim Durumu",
+          "preferredRoleLabel": "Tercih Ettiği Rol",
+          "experienceLabel": "Deneyim",
+          "city": "Çekmeköy, İstanbul",
+          "educationOne": "Marmara Üniversitesi - Bilgisayar Programcılığı Ön Lisans, 2015",
+          "educationTwo": "Marmara Üniversitesi - Bilgi ve Belge Yönetimi Lisans, 2024",
+          "preferredRole": ["Frontend", "UI", "Backend"],
+          "experience": "Marmara Üniversitesi - Bilgi İşlem Daire Başkanlığı, Full-Stack Developer (Part-Time) Çalışma Süresi: 2 Yıl",
+          "aboutMe":"Hakkımda",
+          "about": "Full-Stack Yazılım Geliştirici pozisyonundaki deneyimimde Asp.Net Core, MSSQL, Dapper, Entity Framework Core, REST/SOAP web servisleri, TypeScript, jQuery ve Bootstrap teknolojilerini kullanarak ERP sistemleri üzerinde geliştirmeler ile çeşitli bakım optimizasyonlarını gerçekleştirdim. Full-Stack Yazılım Geliştirici olarak Lifelong Learning prensibiyle daha fazla sorumluluk üstlenip kariyerime katkı sağlamak istiyorum."
+        },
+        "en": {
+          "title": "Profile",
+          "cityLabel": "Residence City",
+          "educationLabel": "Education",
+          "preferredRoleLabel": "Preferred Role",
+          "experienceLabel": "Experience",
+          "city": "Çekmeköy, İstanbul",
+          "educationOne": "Marmara University - Computer Programming Associate Degree, 2015",
+          "educationTwo": "Marmara University - Information and Document Management Bachelor's Degree, 2024",
+          "preferredRole": ["Frontend", "UI", "Backend"],
+          "experience": "Marmara University - Information Technology Department, Full-Stack Developer (Part-Time) Duration: 2 Years",
+          "aboutMe":"About Me",
+          "about": "In my experience as a Full-Stack Software Developer, I have worked on ERP systems using technologies such as Asp.Net Core, MSSQL, Dapper, Entity Framework Core, REST/SOAP web services, TypeScript, jQuery, and Bootstrap to implement developments and perform various maintenance optimizations. As a Full-Stack Software Developer, I am eager to take on more responsibilities and contribute to my career growth with the principle of Lifelong Learning."
+        }
+      },
+      "projects": {
+        "tr": {
+            "title": "Projeler" ,
+            "list":[
+              {
+                "title": "Workintech",
+                "description": "Basit, özelleştirilebilir, minimal bir kurulumla kullanıcıların hangi çerezleri kabul edip etmeyeceğini seçmelerine olanak tanıyan bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, kod ve tema üzerinde her türlü özelleştirme yapılmasına olanak sağlar."
+              },
+              {
+                "title": "Random Jokes",
+                "description": "Basit, özelleştirilebilir, minimal bir kurulumla kullanıcıların hangi çerezleri kabul edip etmeyeceğini seçmelerine olanak tanıyan bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, kod ve tema üzerinde her türlü özelleştirme yapılmasına olanak sağlar."
+              },
+              {
+                "title": "Journey",
+                "description": "Basit, özelleştirilebilir, minimal bir kurulumla kullanıcıların hangi çerezleri kabul edip etmeyeceğini seçmelerine olanak tanıyan bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, kod ve tema üzerinde her türlü özelleştirme yapılmasına olanak sağlar."
+              }
+            ]
+        }
+        ,
+        "en": {
+          "title": "Projects",
+          "list":[
+            {
+              "title": "Workintech",
+              "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS, and Parcel Bundler and is available as an NPM package. The git repository makes any type of customization to code and themes possible."
+            },
+            {
+              "title": "Random Jokes",
+              "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS, and Parcel Bundler and is available as an NPM package. The git repository makes any type of customization to code and themes possible."
+            },
+            {
+              "title": "Journey",
+              "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS, and Parcel Bundler and is available as an NPM package. The git repository makes any type of customization to code and themes possible."
+            }
+          ]
+        }
+      },
+      "projectsDetail": {
+        "images":["/images/workintech.png", "/images/random-jokes.png", "/images/journey.png"],
+        "tech": ["react", "redux", "axios"],
+        "links": ["Github", "View Site"]
+      },
+      "collaboration": {
+          "tr": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+          "en": "Let's work together on your next product."
+      }
+}

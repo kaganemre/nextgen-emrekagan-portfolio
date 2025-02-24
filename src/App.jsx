@@ -6,19 +6,22 @@ import Skills from "./components/Skills";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import { PortfolioProvider } from "./contexts/PortfolioContext";
 
 function App() {
   return (
-    <main className="container mx-auto" style={{ width: "1440px" }}>
-      <article className="container mx-auto" style={{ width: "1300px" }}>
-        <Header />
-        <AboutMe />
-        <Skills />
-        <Profile />
-        <Projects />
-        <Footer />
-      </article>
-    </main>
+    <PortfolioProvider>
+      <main className="container mx-auto" style={{ width: "1440px" }}>
+        <article className="container mx-auto" style={{ width: "1300px" }}>
+          <Header />
+          <AboutMe />
+          <Skills />
+          <Profile />
+          <Projects />
+          <Footer />
+        </article>
+      </main>
+    </PortfolioProvider>
   );
 }
 

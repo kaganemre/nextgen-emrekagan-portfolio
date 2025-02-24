@@ -1,9 +1,14 @@
+import { useContext } from "react";
+import { PortfolioContext } from "../contexts/PortfolioContext";
+
 const Footer = () => {
+  const { collaboration } = useContext(PortfolioContext);
+
   return (
     <footer className="flex flex-col bg-[#F9F9F9] justify-center full-width h-[409px] mt-52">
       <section className="">
-        <p className="w-[540] h-[106] text-4xl text-ninth-color font-semibold">
-          Let’s work together on <br /> your next product.
+        <p className="w-[400px] h-[106px] text-4xl text-ninth-color font-semibold whitespace-pre-line">
+          {collaboration}
         </p>
         <div className="flex justify-between links mt-16">
           <span>

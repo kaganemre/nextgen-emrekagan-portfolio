@@ -1,6 +1,9 @@
-import emreKagan from "../assets/images/emre-kagan.png";
+import { useContext } from "react";
+import { PortfolioContext } from "../contexts/PortfolioContext";
 
 const AboutMe = () => {
+  const { aboutMe } = useContext(PortfolioContext);
+
   return (
     <section className="flex gap-10 mt-16 items-center justify-center">
       <div className="flex flex-col gap-10 hero-left">
@@ -11,13 +14,9 @@ const AboutMe = () => {
           />
           <span className="text-eighth-color font-medium">Emre Kağan Erde</span>
         </div>
-        <p className="text-6xl text-ninth-color font-bold">
-          Creative thinker Minimalism lover
-        </p>
+        <p className="text-6xl text-ninth-color font-bold">{aboutMe.header}</p>
         <p className="text-wrap text-tertiary-color w-[553px] text-lg">
-          Hi, I’m Emre Kağan. I’m a full-stack developer. If you are looking for
-          a Developer who to craft solid and scalable frontend products with
-          great user experiences. Let’s shake hands with me.
+          {aboutMe.text}
         </p>
         <div className="flex gap-2 about-buttons">
           <button className="bg-primary-color text-white rounded py-2 px-6 hover:bg-secondary-color  transition duration-300 ease-in-out">
@@ -34,7 +33,7 @@ const AboutMe = () => {
         </div>
       </div>
       <img
-        src={emreKagan}
+        src="/images/emre-kagan.png"
         alt=""
         className="w-[476px] h-[375px] object-cover rounded-2xl"
       />

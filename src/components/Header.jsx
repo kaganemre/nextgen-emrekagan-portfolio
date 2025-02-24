@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { PortfolioContext } from "../contexts/PortfolioContext";
+
 const Header = () => {
+  const { menu, language, handleLanguage } = useContext(PortfolioContext);
+
   return (
     <header className="mt-10">
       <div className="flex items-center justify-end mt-6 mr-3">
@@ -15,7 +20,7 @@ const Header = () => {
 
         <div className="flex items-center justify-center">
           <label
-            for="toggle-dark-mode"
+            htmlFor="toggle-dark-mode"
             className="text-tertiary-color text-sm font-semibold mr-2 ml-2 text-gray-700"
           >
             DARK MODE <span className="ml-2">|</span>
@@ -24,8 +29,11 @@ const Header = () => {
         <a
           href="#"
           className="text-secondary-color text-sm font-bold ml-4 text-blue-500"
+          onClick={handleLanguage}
         >
-          TÜRKÇE<span className="text-tertiary-color">'YE GEÇ</span>
+          <span>
+            TÜRKÇE<span className="text-tertiary-color">'YE GEÇ</span>
+          </span>
         </a>
       </div>
 
@@ -35,13 +43,13 @@ const Header = () => {
         </span>
         <nav className="flex items-center text-tertiary-color font-[450] text-lg gap-10">
           <a href="#skills" className="hover:text-gray-600 mr-4">
-            Skills
+            {menu.skills}
           </a>
           <a href="#projects" className="hover:text-gray-600 mr-2">
-            Projects
+            {menu.projects}
           </a>
           <button className="border border-primary-color text-primary-color rounded py-2 px-6 hover:bg-primary-color hover:text-white transition duration-300 ease-in-out">
-            Contact
+            {menu.contact}
           </button>
         </nav>
       </nav>

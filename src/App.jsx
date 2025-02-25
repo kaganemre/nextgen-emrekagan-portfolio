@@ -6,22 +6,29 @@ import Skills from "./components/Skills";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import { PortfolioProvider } from "./contexts/PortfolioContext";
+import { useContext } from "react";
+import { PortfolioContext } from "./contexts/PortfolioContext";
 
 function App() {
+  const { darkMode } = useContext(PortfolioContext);
+
   return (
-    <PortfolioProvider>
-      <main className="container mx-auto" style={{ width: "1440px" }}>
-        <article className="container mx-auto" style={{ width: "1300px" }}>
-          <Header />
-          <AboutMe />
-          <Skills />
-          <Profile />
-          <Projects />
-          <Footer />
-        </article>
-      </main>
-    </PortfolioProvider>
+    <main
+      className={`container mx-auto ${darkMode ? "dark" : ""}`}
+      style={{ width: "1440px" }}
+    >
+      <article
+        className="container mx-auto dark:bg-[#252128]"
+        style={{ width: "1300px" }}
+      >
+        <Header />
+        <AboutMe />
+        <Skills />
+        <Profile />
+        <Projects />
+        <Footer />
+      </article>
+    </main>
   );
 }
 

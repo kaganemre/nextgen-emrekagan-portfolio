@@ -5,9 +5,9 @@ const Footer = () => {
   const { collaboration } = useContext(PortfolioContext);
 
   return (
-    <footer className="flex flex-col bg-[#F9F9F9] justify-center full-width h-[409px] mt-52">
+    <footer className="flex flex-col bg-[#F9F9F9] dark:bg-[#141414] justify-center full-width h-[409px] mt-52 mb-6">
       <section className="">
-        <p className="w-[400px] h-[106px] text-4xl text-ninth-color font-semibold whitespace-pre-line">
+        <p className="w-[400px] h-[106px] text-4xl text-ninth-color dark:text-dark-twelfth-color font-semibold whitespace-pre-line">
           {collaboration}
         </p>
         <div className="flex justify-between links mt-16">
@@ -15,7 +15,7 @@ const Footer = () => {
             👉
             <a
               href="mailto:emrekgan@gmail.com"
-              className="text-twelfth-color underline ml-2"
+              className="text-twelfth-color dark:text-dark-seventh-color underline ml-2"
             >
               emrekgan@gmail.com
             </a>
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="flex gap-5 web-sites">
             <a
               href="https://yourpersonalblog.com"
-              className="text-[#0A0A14] text-lg font-medium"
+              className="text-[#0A0A14] dark:text-dark-eighth-color text-lg font-medium"
             >
               Personal Blog
             </a>

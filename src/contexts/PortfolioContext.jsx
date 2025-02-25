@@ -1,15 +1,25 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import portfolioData from "../portfolio.json";
 
 export const PortfolioContext = createContext();
 
 export const PortfolioProvider = ({ children }) => {
-  const [language, setLanguage] = useState("en");
+  const storedLanguage = localStorage.getItem("language") || "en";
+  const storedDarkMode = JSON.parse(localStorage.getItem("darkMode")) || false;
+
+  const [language, setLanguage] = useState(storedLanguage);
+  const [darkMode, setDarkMode] = useState(storedDarkMode);
 
   const handleLanguage = (e) => {
     e.preventDefault();
-    setLanguage((prevLang) => (prevLang === "en" ? "tr" : "en"));
+    const newLanguage = language === "en" ? "tr" : "en";
+    setLanguage(newLanguage);
+    localStorage.setItem("language", newLanguage);
   };
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+  }, [darkMode]);
 
   const data = {
     menu: portfolioData.menu[language],
@@ -33,6 +43,8 @@ export const PortfolioProvider = ({ children }) => {
         collaboration: data.collaboration,
         language,
         handleLanguage,
+        darkMode,
+        setDarkMode,
       }}
     >
       {children}

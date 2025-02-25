@@ -5,7 +5,7 @@ const Skills = () => {
   const { skills } = useContext(PortfolioContext);
 
   return (
-    <section className="mt-20 md:mt-40">
+    <section id="skills" className="mt-20 md:mt-40">
       <p className="text-5xl text-center md:text-start text-ninth-color dark:text-dark-twelfth-color font-semibold">
         {skills.title}
       </p>

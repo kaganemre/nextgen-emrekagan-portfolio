@@ -37,29 +37,33 @@ const Header = () => {
             htmlFor="toggle-dark-mode"
             className="text-tertiary-color dark:text-[#D9D9D9] text-sm font-semibold text-gray-700"
           >
-            {darkMode ? "LIGHT MODE" : "DARK MODE"}
+            <span className="inline-block w-[110px] text-center">
+              {darkMode
+                ? `${language === "en" ? "DARK MODE" : "KARANLIK MOD"}`
+                : `${language === "en" ? "LIGHT MODE" : "AYDINLIK MOD"}`}
+            </span>
             <span className="ml-2">|</span>
           </label>
         </div>
 
         <a
           href="#"
-          className="text-secondary-color dark:text-dark-primary-color text-sm font-bold text-blue-500 w-[150px] text-center whitespace-nowrap"
+          className="text-secondary-color mr-5 dark:text-dark-primary-color text-sm font-bold w-[120px] text-center whitespace-nowrap"
           onClick={handleLanguage}
         >
           {language === "en" ? (
             <span>
-              SWITCH
+              TÜRKÇE
               <span className="text-tertiary-color dark:text-dark-secondary-color">
-                {" "}
-                TO TURKISH
+                'YE GEÇ
               </span>
             </span>
           ) : (
             <span>
-              TÜRKÇE
+              SWITCH
               <span className="text-tertiary-color dark:text-dark-secondary-color">
-                'YE GEÇ
+                {" "}
+                TO ENGLISH
               </span>
             </span>
           )}
@@ -77,9 +81,12 @@ const Header = () => {
           <a href="#projects" className="hover:text-gray-600 mr-2">
             {menu.projects}
           </a>
-          <button className="border border-primary-color dark:bg-dark-sixth-color text-primary-color rounded py-2 px-6 hover:bg-primary-color hover:text-white hover:dark:text-secondary-color transition duration-300 ease-in-out">
+          <a
+            href="mailto:emrekgan@gmail.com"
+            className="border border-primary-color dark:bg-dark-sixth-color text-primary-color rounded py-2 px-6 hover:bg-primary-color hover:text-white hover:dark:text-secondary-color transition duration-300 ease-in-out"
+          >
             {menu.contact}
-          </button>
+          </a>
         </nav>
       </nav>
     </header>

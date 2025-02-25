@@ -33,14 +33,14 @@ const AboutMe = () => {
             href="https://github.com/kaganemre"
             className="border border-primary-color dark:bg-dark-tenth-color dark:border-dark-eleventh-color text-primary-color dark:text-dark-eleventh-color rounded py-2 px-4 hover:bg-primary-color hover:text-white transition duration-300 ease-in-out"
           >
-            <i className="fab fa-github fa-xl mr-1 dark:text-dark-primary-color hover:secondary-color"></i>
+            <i className="fab fa-github fa-xl mr-2 dark:text-dark-primary-color hover:secondary-color"></i>
             Github
           </a>
           <a
             href="https://www.linkedin.com/in/emrekaganerde"
             className="border border-primary-color dark:bg-dark-tenth-color dark:border-dark-eleventh-color text-primary-color dark:text-dark-eleventh-color rounded py-2 px-4 hover:bg-primary-color hover:text-white transition duration-300 ease-in-out"
           >
-            <i className="fab fa-linkedin-in fa-xl mr-1 dark:text-dark-primary-color hover:secondary-color"></i>
+            <i className="fab fa-linkedin-in fa-xl mr-2 dark:text-dark-primary-color hover:secondary-color"></i>
             LinkedIn
           </a>
         </div>

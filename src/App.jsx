@@ -15,10 +15,10 @@ function App() {
   return (
     <main
       className={`container mx-auto ${darkMode ? "dark" : ""}`}
-      style={{ width: "1440px" }}
+      style={{ maxWidth: "1440px" }}
     >
       <article
-        className="container mx-auto dark:bg-[#252128]"
+        className="mx-auto dark:bg-[#252128]"
         style={{ width: "1300px" }}
       >
         <Header />

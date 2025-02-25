@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
       <hr className="my-12 text-eleventh-color dark:border-dark-primary-color" />
-      <section className="flex flex-col gap-5 projects-list">
+      <section id="projects" className="flex flex-col gap-5 projects-list">
         <p className="text-5xl text-center md:text-start text-ninth-color dark:text-dark-twelfth-color font-semibold mb-3">
           {projects.title}
         </p>

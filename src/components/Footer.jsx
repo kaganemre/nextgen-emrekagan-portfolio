@@ -22,19 +22,19 @@ const Footer = () => {
           </span>
           <div className="flex gap-5 web-sites">
             <a
-              href="https://yourpersonalblog.com"
+              href="#"
               className="text-[#0A0A14] dark:text-dark-eighth-color text-lg font-medium"
             >
               Personal Blog
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/kaganemre"
               className="text-[#00AB6B] text-lg font-medium"
             >
               Github
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/emrekaganerde"
               className="text-[#0077B5] text-lg font-medium"
             >
               Linkedin

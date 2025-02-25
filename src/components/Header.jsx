@@ -25,7 +25,7 @@ const Header = () => {
               className={`toggle-dot w-3.5 h-3.5 rounded-full transform duration-300 ease-in-out 
                        shadow-md ${
                          darkMode
-                           ? "translate-x-0 shadow-[inset_5.5px_0px_0px_0px_rgba(255,232,110)] "
+                           ? "translate-x-0 custom-shadow"
                            : "translate-x-[25px] shadow-none bg-[#FFE86E]"
                        }`}
             ></div>

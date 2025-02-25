@@ -16,23 +16,11 @@ section, header, hr {
     margin: 0 100px;
 }
 
-/* .primary-color {
-    color: #3730A3;
-}
-
-.secondary-color {
-    color: #4731D3;
-}
-
-.tertiary-color {
-    color: #6B7280;
-}
-
-.fourth-color {
-    color: #777777
-} */
-
 .hero-left {
     width: 596px;
     height: 428px;
 }
+
+.custom-shadow {
+    box-shadow: inset 5.5px 0px 0px 0px #FFE86E;
+  }

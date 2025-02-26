@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="">
-      <div className="flex items-center justify-end mt-6 mr-3 gap-x-4 h-20">
+      <div className="flex items-center justify-end mr-3 gap-x-4 h-20">
         <input
           type="checkbox"
           id="toggle-dark-mode"
@@ -83,7 +83,7 @@ const Header = () => {
           </a>
           <a
             href="mailto:emrekgan@gmail.com"
-            className="border border-primary-color dark:bg-dark-sixth-color text-primary-color rounded py-2 px-6 hover:bg-primary-color hover:text-white hover:dark:text-secondary-color transition duration-300 ease-in-out"
+            className="border border-primary-color dark:bg-dark-sixth-color text-primary-color rounded-md py-3 px-6 hover:bg-primary-color hover:text-white hover:dark:text-secondary-color transition duration-300 ease-in-out min-w-[125px] py-3 text-center block"
           >
             {menu.contact}
           </a>

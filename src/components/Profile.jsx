@@ -34,7 +34,7 @@ const Profile = () => {
                 <span>{profile.preferredRole.join(", ")}</span>
               </li>
               <li className="flex font-normal">
-                <strong className="w-[15.5rem] md:w-[21.2rem]">
+                <strong className="w-[15.5rem] md:w-[22rem]">
                   {profile.experienceLabel}:
                 </strong>
                 <span className="w-80 md:w-auto">{profile.experience}</span>
